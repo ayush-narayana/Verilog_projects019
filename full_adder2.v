@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 20.07.2025 21:34:52
+// Create Date: 20.07.2025 21:43:39
 // Design Name: 
 // Module Name: full_adder2
 // Project Name: 
@@ -19,4 +19,12 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+module full_adder2(a,b,c,sum,carry);
+
+input a,b,c;
+output sum,carry;
+
+assign {carry,sum}=a+b+c;
+
+endmodule
 
